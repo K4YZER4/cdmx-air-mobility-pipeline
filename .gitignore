@@ -1,0 +1,21 @@
+# --- Data (no subir datasets grandes) ---
+data/
+*.csv
+*.zip
+
+# --- Secrets / configs locales ---
+.env
+*.key
+*.pem
+kaggle.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- VS Code / OS ---
+.vscode/
+.DS_Store
+Thumbs.db
